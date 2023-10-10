@@ -1,0 +1,96 @@
+/* Style pour la page accueil */
+h1{
+    color: yellow;
+    font-size: 3em;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 10px; 
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+body{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    background-color: rgb(10, 10, 10);
+    font-family: Roboto;
+}
+
+.slick-slide img {
+    max-height: 1500px;
+    object-fit: cover; 
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 80%; 
+    margin: 10% auto; 
+}
+
+.film-item {
+    margin: 20px; 
+}
+
+.film-item:hover{
+    transform: scale(1.1);
+}
+
+/* Style pour la page informations d'un film */
+
+.film-container {
+    border: 4px solid rgb(27, 27, 27);
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 1000px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white;
+    text-align: center; 
+}
+
+.img-container{
+    margin-bottom: 20px;
+}
+
+.infos-container{
+    display: flex;
+    color: gray;
+    margin-bottom: 5px;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+.synopsis{
+    font-size: 1.42em;
+    line-height: 1.5;
+}
+
+.barre{
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.retour{
+    border: 2px solid yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.retour:hover{
+    color: rgb(134, 134, 2);
+    border-color: rgb(134, 134, 2);
+}
